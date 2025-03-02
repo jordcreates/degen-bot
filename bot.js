@@ -136,7 +136,7 @@ bot.command('updatewallets', async (ctx) => {
 const port = process.env.PORT || 3000;
 bot.launch({
     webhook: {
-        domain: 'YOUR_RENDER_URL', // Replace with your Render URL after deployment
+        domain: https://degeninsights.onrender.com , // Replace with your Render URL after deployment
         port: port,
         hookPath: '/' + bot.token
     }
